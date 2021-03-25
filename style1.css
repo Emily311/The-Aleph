@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0px;
   padding: 0px;
   font-family: Garamond;
@@ -8,16 +8,18 @@ body{
 }
 
 @keyframes mymove {
-  50% {background-color: blue;}
+  50% {
+    background-color: blue;
+  }
 }
 
-html{
+html {
   height: 100%;
   padding: 0px;
   margin: 0px;
 }
 
-.background{
+.background {
   display: flex;
   flex-direction: column;
   background: #333333;
@@ -25,7 +27,9 @@ html{
 }
 
 @keyframes mymove {
-  50% {background-color: blue;}
+  50% {
+    background-color: blue;
+  }
 }
 
 .point {
