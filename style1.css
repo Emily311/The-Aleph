@@ -7,6 +7,10 @@ body {
   animation: mymove 5s infinite;
 }
 
+element.style{
+  overflow: hidden;
+}
+
 @keyframes mymove {
   50% {
     background-color: blue;
